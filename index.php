@@ -40,7 +40,7 @@
             </div>
             <div style="margin-bottom: 5%;">
                 <label class="text2">Password</label><br>
-                <input class="password" name="Password" type="text">
+                <input class="text" name="Password" type="password">
             </div>
             <div style="margin-bottom: 5%;">
                 <input id="button1" type="submit" value="Login">
