@@ -31,12 +31,13 @@
     -webkit-transition-duration: 0.2s; 
     transition-duration: 0.1s;
     margin-top:5px;
+    padding-left:12px;
 }
 #button1{
   color: white !important;
   font-family: "Quicksand", sans-serif !important;
   font-size: 24px !important;
-  padding:1% 2%;
+  padding:5% 20%;
   background: #e58181 !important;
   border-radius: 15px !important;
   box-shadow: 3px 3px #f8c8c8;
