@@ -1,12 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-tamaraidee.com
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-<form method="POST" action="login.php">
-<label>Username : </label> <input type="text" name="Username" placeholder="Username"><br>
-<label>Password : </label> <input type="password" name="Password" placeholder="Password"><br>
-<input type="submit" value="login">
+    <form method="POST" action="login.php">
+<div class="content">
+        <div class="box">
+            <div class="title2">
+                Tumaraidee.com
+            </div>
+            <div>
+                <img width="126px" src="logo.svg">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <label class="text2">Username</label><br>
+                <input class="text" type="text">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <label class="text2">Password</label><br>
+                <input class="text" type="text">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <input id="button1" type="submit" value="Login">
+            </div>
+        </div>  
+    </div>
 </form>
 </body>
 </html>

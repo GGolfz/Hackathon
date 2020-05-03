@@ -4,7 +4,7 @@ session_start();
                   include("connect.php");
                   $Username = $_POST['Username'];
                   $Password = $_POST['Password'];
-                  $sql="SELECT * FROM Account Where Username='".$Username."' and Password='".$Password."' ";
+                  $sql="SELECT * FROM user Where username='".$Username."' and password='".$Password."' ";
 
                   $result = mysqli_query($con,$sql);
 				
