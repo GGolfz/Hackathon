@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamaraidee.com</title>
+    <title>Tamaraidee.com Login Page</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <div class="block">
+    <div class="container">
+            <div class="navBlock">
+                <ul>
+                    <li id="listLeft">
+                        <img src="logo.svg" height="100%" style="margin-right:4%">
+                        <label class="title1" style="margin-right:4%">Tamaraidees.com</label>
+                        <input id="button2" type="submit" value="Article">
+                    </li>
+                    <li id="listRight">
+                        <input type="text" placeholder="Search" style="margin-right:4%">
+                        <input id="button2" type="submit" value="Log In"style="margin-right:1%">
+                        <input id="button2" type="submit" value="Sign Up"style="margin-right:1%">
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    <form method="POST" action="login.php">
+        <div class="content">
+        <div class="box">
+            <div class="title2">
+                Tumaraidee.com
+            </div>
+            <div>
+                <img width="126px" src="logo.svg">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <label class="text2">Username</label><br>
+                <input class="text" name="Username" type="text">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <label class="text2">Password</label><br>
+                <input class="text" name="Password" type="password">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <input id="button1" type="submit" value="Login">
+            </div>
+        </div>  
+    </div>
+
+</form>
+</div>
 </body>
 </html>

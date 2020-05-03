@@ -9,15 +9,16 @@
 
 </head>
 <body>
+    <div class="block">
     <div class="container">
             <div class="navBlock">
                 <ul>
                     <li id="listLeft">Tamaraidees.com</li>
                     <li id="listRight">
-                        <button>Sign up</button>
+                        <input id="button1" type="submit" value="Sign Up">
                     </li>
                     <li id="listRight">
-                        <button>Login</button>
+                        <input id="button1" type="submit" value="Log In">
                     </li>
                     <li id="listRight">
                         <input type="text" placeholder="Search">
@@ -47,6 +48,8 @@
             </div>
         </div>  
     </div>
+
 </form>
+</div>
 </body>
 </html>
