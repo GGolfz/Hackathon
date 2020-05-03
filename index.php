@@ -9,6 +9,22 @@
 
 </head>
 <body>
+    <div class="container">
+            <div class="navBlock">
+                <ul>
+                    <li id="listLeft">Tamaraidees.com</li>
+                    <li id="listRight">
+                        <button>Sign up</button>
+                    </li>
+                    <li id="listRight">
+                        <button>Login</button>
+                    </li>
+                    <li id="listRight">
+                        <input type="text" placeholder="Search">
+                    </li>
+                </ul> 
+            </div>
+        </div>
     <form method="POST" action="login.php">
 <div class="content">
         <div class="box">
@@ -20,11 +36,11 @@
             </div>
             <div style="margin-bottom: 5%;">
                 <label class="text2">Username</label><br>
-                <input class="text" type="text">
+                <input class="text" name="Username" type="text">
             </div>
             <div style="margin-bottom: 5%;">
                 <label class="text2">Password</label><br>
-                <input class="text" type="text">
+                <input class="password" name="Password" type="text">
             </div>
             <div style="margin-bottom: 5%;">
                 <input id="button1" type="submit" value="Login">

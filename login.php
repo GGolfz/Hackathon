@@ -18,6 +18,7 @@ session_start();
                   }
                   else{
                     echo "<script>";
+                    echo "console.log('fail')";
                         echo "alert(\" Username หรือ  Password ไม่ถูกต้อง\");"; 
                         echo "window.history.back()";
                     echo "</script>";

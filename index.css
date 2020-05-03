@@ -54,7 +54,55 @@
     white-space: nowrap !important;
     color: #8D5F5F;
   }
-body{
+body, html{
 
   font-family: "Quicksand", sans-serif !important;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+    margin: 0;
+    width: 100%;
+    background-color: #FFD8D8;
+}
+
+.navBlock {
+    margin: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #FFD8D8;
+}
+
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+li#listLeft {
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+
+li#listRight {
+    text-decoration: none;
+    float: right;
+    margin: 0;
+    padding: 10px;
+}
+
+#title {
+    font-size: 1.2em;
+    color: red;
+}
+
+button {
+    font-size: 1.2em;
 }
