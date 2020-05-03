@@ -4,7 +4,15 @@ session_start();
                   include("connect.php");
                   $Username = $_POST['Username'];
                   $Password = $_POST['Password'];
-                  $sql="INSERT INTO user(`username`,`password`) VALUES('".$Username."','".$Password."')";
+                  $Name = $_POST["Name"];
+                  $Tel = $_POST["Tel"];
+                  $Email = $_POST["Email"];
+                  $CardName = $_POST["CardName"];
+                  $CardNo = $_POST["CardNo"];
+                  $Expired = $_POST["Expired"];
+                  $Pin = $_POST["Pin"];
+                  $sql="INSERT INTO user(`username`,`password`,`email`,`tel`,`name`,`credit_name`,`cardno`,`card_expired`,`card_pin`) 
+                  VALUES('".$Username."','".$Password."','".$Email."','".$Tel."','".$Name."','".$CardName."','".$CardNo."','".$Expired."','".$Pin."')";
 
                   if (mysqli_query($con, $sql)) {
                       $_SESSION["Username"] = $Username;

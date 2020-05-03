@@ -26,14 +26,24 @@
                 </ul> 
             </div>
         </div>
-    <form method="POST" action="login.php">
+    <form method="POST" action="regis.php">
         <div class="content">
         <div class="box">
+            <div id="page1">
             <div class="title2">
-                Tumaraidee.com
+                Sign Up
             </div>
-            <div>
-                <img width="126px" src="logo.svg">
+            <div style="margin-bottom: 5%;">
+                <label class="text2">Name</label><br>
+                <input class="text" name="Name" type="text">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <label class="text2">Telephone Number</label><br>
+                <input class="text" name="Tel" type="text">
+            </div>
+            <div style="margin-bottom: 5%;">
+                <label class="text2">Email</label><br>
+                <input class="text" name="Email" type="text">
             </div>
             <div style="margin-bottom: 5%;">
                 <label class="text2">Username</label><br>
@@ -44,7 +54,35 @@
                 <input class="text" name="Password" type="password">
             </div>
             <div style="margin-bottom: 5%;">
-                <input id="button1" type="submit" value="Login">
+                <input id="button1" type="button" onclick="next()" value="Next">
+            </div>
+            </div>
+            <div id="page2">
+                <div class="title2">
+                    Page2
+                </div>
+                <div style="margin-bottom: 5%;">
+                    <label class="text2">Name</label><br>
+                    <input class="text" name="CardName" type="text">
+                </div>
+                <div style="margin-bottom: 5%;">
+                    <label class="text2">Card No.</label><br>
+                    <input class="text" name="CardNo" type="text">
+                </div>
+                <div style="margin-bottom: 5%;">
+                    <label class="text2">Credit Card Expiry</label><br>
+                    <input class="text" name="Expired" type="text">
+                </div>
+                <div style="margin-bottom: 5%;">
+                    <label class="text2">Credit Card PIN</label><br>
+                    <input class="text" name="Pin" type="text">
+                </div>
+                <div style="margin-bottom: 5%;">
+                    <input id="button1" type="button" onclick="back()" value="Back">
+                </div>
+                <div style="margin-bottom: 5%;">
+                    <input id="button1" type="submit" value="Sign Up">
+                </div>
             </div>
         </div>  
     </div>
@@ -53,3 +91,13 @@
 </div>
 </body>
 </html>
+<script>
+const next = ()=>{
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "block";
+}
+const back = ()=>{
+    document.getElementById("page1").style.display = "block";
+    document.getElementById("page2").style.display = "none";
+}
+</script>
