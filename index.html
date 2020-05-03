@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamaraidee.com Login Page</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
 </head>
 <body>
     <div class="block">
@@ -78,10 +77,14 @@
                     <input class="text" name="Pin" type="text">
                 </div>
                 <div style="margin-bottom: 5%;">
+                    <input id="check1" type="checkbox"> I agree with term and condition
+                </div>
+                <div style="margin-bottom: 5%;">
                     <input id="button1" type="button" onclick="back()" value="Back">
                 </div>
                 <div style="margin-bottom: 5%;">
-                    <input id="button1" type="submit" value="Sign Up">
+                    <input id="sentform" type="submit" style="display:none" value="Sign Up">
+                    <input id="button1" type="button" onclick="sent()" value="Sign Up">
                 </div>
             </div>
         </div>  
@@ -99,5 +102,13 @@ const next = ()=>{
 const back = ()=>{
     document.getElementById("page1").style.display = "block";
     document.getElementById("page2").style.display = "none";
+}
+const sent =()=>{
+    if(document.getElementById("check1").checked){
+        document.getElementById("sentform").click();
+    }
+    else{
+        alert("Plese tick checkbox")
+    }
 }
 </script>
