@@ -226,12 +226,19 @@ button {
         .newcontent{
             display:flex;
             flex-direction:column;
-            justify-content:space-evenly;
+            align-items:center;
         }
         .row1{
             display:flex;
             align-items:center;
-            margin:5% 15%;
+            margin:3%;
+        }
+        .col1{
+            font-size:30px;
+        }
+        .header{
+            font-size:32px !important;
+            font-weight:bold;
         }
     </style>
 <body>
@@ -277,7 +284,7 @@ button {
     <div class="newcontent">
         <div class="row1">
             <div class="col1">
-            TOP Quality<br>
+            <span class="header">TOP Quality</span><br>
             Learning From Skilled Lecturer<br>
 with Real Experience<br>
 Adaptation Knowledge
@@ -292,14 +299,14 @@ Adaptation Knowledge
         <img src="pic3.png">
     </div>
             <div class="col1">
-            ACCESSIBLE<br>
+            <span class="header">ACCESSIBLE</span><br>
             24 Hour access<br>
             Offline learning<br>
     </div>
     </div>
     <div class="row1">
     <div class="col1">
-    Discussion board<br>
+    <span class="header">Discussion board</span><br>
     Getting Struck with your problems<br>
     Find your course friends
 
