@@ -4,7 +4,7 @@ session_start();
                   include("connect.php");
                   $Username = $_POST['Username'];
                   $Password = $_POST['Password'];
-                  $Name = $_POST["Name"];
+                  $Name = $_POST["Firstname"]." ".$_POST["Lastname"];
                   $Tel = $_POST["Tel"];
                   $Email = $_POST["Email"];
                   $CardName = $_POST["CardName"];
