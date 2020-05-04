@@ -245,9 +245,9 @@ button {
             justify-content: space-evenly;
         }
         .tag{
-            width:190px;
+            width:150px;
             height:120px;
-            font-size: 32px;
+            font-size: 26px;
             font-weight:bold;
             text-align:center;
             border-radius:15px;
