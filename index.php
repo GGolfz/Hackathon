@@ -220,6 +220,7 @@ button {
             background: url("banner.png") ;
             height:596px !important;
             color:white;
+            padding-top:200px;
         }
     </style>
 <body>
@@ -250,10 +251,10 @@ button {
     </nav>
     <div class="banner" width="1440px">
         <div style="margin-left:137px">
-        <div class="margin-top:100px">
+        <div >
         Do you bored during Quarantine?
     </div>
-    <div class="margin:20px 0px">
+    <div style="margin:20px 0px">
         Learning on your life-skill, anytime. <br>
         7-Days Free trial.
 
