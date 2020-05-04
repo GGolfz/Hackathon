@@ -2,6 +2,7 @@
 session_start();
        			
                   include("connect.php");
+                  echo "<script>alert('hi')</script>";
                   $Username = $_POST['Username'];
                   $Password = $_POST['Password'];
                   $Name = $_POST["Firstname"]." ".$_POST["Lastname"];
