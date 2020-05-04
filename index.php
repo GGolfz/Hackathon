@@ -253,6 +253,9 @@ button {
             border-radius:15px;
             color:#000000;
             background:#DDDADA;
+            display:flex;
+            align-items:center;
+            
         }
         .pink{
             color: #A13131 !important;
@@ -331,6 +334,7 @@ Adaptation Knowledge
     </div>
             <div class="col1">
                 <img src="pic1.png">
+    </div>
     </div>
     </div>
     <div class="catagories">
