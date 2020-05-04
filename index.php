@@ -13,7 +13,7 @@
     justify-content: center;
     height: 85vh;
 }
-.box{
+.box1{
     width:380px;
     height: auto;
     border-radius: 15px;
@@ -229,9 +229,10 @@ button {
         </div>
     </nav>
     <div class="content">
-        <div class="box">
 
-        <form action="login.php" method="POST" class="form-inline my-2 my-lg-0">
+    <form action="login.php" method="POST" class="form-inline my-2 my-lg-0">
+        <div class="box1">
+
             <div class="title2">
                 Tumaraidee.com
             </div>
@@ -249,8 +250,9 @@ button {
             <div style="margin-bottom: 5%;">
                 <input id="button1" type="submit" value="Login">
             </div>
-            </form>
         </div>  
+
+        </form>
     </div>
 </body>
 
