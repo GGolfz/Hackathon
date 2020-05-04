@@ -221,11 +221,12 @@ button {
                 </li>
 
             </ul>
-            
+            <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                </form>
                 <a class="nav-link" href="#"> <button class="btn navBut my-2 my-sm-0 m-1" type="submit">Login</button></a>
                 <a class="nav-link" href="signup.php"> <button class="btn navBut my-2 my-sm-0 m-1" type="submit">Sign Up</button></a>
-            
+
         </div>
     </nav>
     <div class="content">
