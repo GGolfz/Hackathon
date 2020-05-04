@@ -182,12 +182,13 @@ button {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .button1{
-            padding:3%;
-            background:transparent;
+        #button3{
+            padding: 1% 2%;
+            background: transparent;
             border: solid white 3px;
-            color:white;
-            
+            color: white;
+            width: 180px;
+            text-align: center;
         }
         .navBut {
             color: white !important;
@@ -214,6 +215,9 @@ button {
 
         #nextbut {
             text-rendering: unset;
+        }
+        .banner{
+            background: url("banner.png") 
         }
     </style>
 <body>
@@ -242,7 +246,7 @@ button {
                 <a class="nav-link" href="logout.php"> <button class="btn navBut my-2 my-sm-0 m-1" type="submit">logout</button></a>
         </div>
     </nav>
-    <div width="1440px" height="596px">
+    <div class="banner" width="1440px" height="596px">
         <div style="margin-left:137px">
         <div>
         Do you bored during Quarantine?
@@ -252,7 +256,7 @@ button {
 7-Days Free trial.
 
     </div>
-    <a class="nav-link" href="signup.php"><div class="button1">JOIN FOR FREE</div></a>
+    <a href="signup.php"><div id="button3">JOIN FOR FREE</div></a>
     </div>
 
     </div>
