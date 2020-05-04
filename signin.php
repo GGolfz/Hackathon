@@ -11,7 +11,7 @@ session_start();
 <link rel="icon" href="cropped-group-5-1-2.png" type="image/icon type">
 
 <head>
-    <title>Registration</title>
+    <title>Login</title>
     <style>
         .content{
     display:flex;
