@@ -250,12 +250,12 @@ button {
     </nav>
     <div class="banner" width="1440px">
         <div style="margin-left:137px">
-        <div>
+        <div class="margin-top:100px">
         Do you bored during Quarantine?
     </div>
-    <div>
-    Learning on your life-skill, anytime. <br>
-7-Days Free trial.
+    <div class="margin:20px 0px">
+        Learning on your life-skill, anytime. <br>
+        7-Days Free trial.
 
     </div>
     <a href="signup.php"><div id="button3">JOIN FOR FREE</div></a>
