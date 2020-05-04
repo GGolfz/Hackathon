@@ -197,7 +197,6 @@
             document.getElementById("cvv").value !== "" &&
             document.getElementById("agree").checked
             ){
-                console.log(document.getElementById("firstName").value);
                 document.getElementById("submitform").click();
             }
         }
