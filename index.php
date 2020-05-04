@@ -1,3 +1,9 @@
+<?php 
+session_start();      
+	include("connect.php");			
+        
+    if ($_SESSION["UserLevel"]=="M"){
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,3 +15,7 @@
     
 </body>
 </html>
+    <?php }else{
+        
+	Header("Location: signin.php"); 
+    }

@@ -14,7 +14,7 @@ session_start();
 
                       $_SESSION["Username"] = $row["Username"];
 					  $_SESSION["Password"] = $row["Password"];
-                      Header("Location: homepage.php");
+                      Header("Location: index.php");
                   }
                   else{
                     echo "<script>";

@@ -18,7 +18,7 @@ session_start();
                       $_SESSION["Username"] = $Username;
 					  $_SESSION["Password"] = $Password;
                       
-                        Header("Location: homepage.php");
+                        Header("Location: index.php");
                         
                         } else {
                         echo "Error updating record: " . mysqli_error($con);
