@@ -56,7 +56,7 @@
             background-color: white;
         }
 
-        #nextbut {
+        .nextbut {
             text-rendering: unset;
         }
     </style>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                     <div class="row mt-3 justify-content-center">
-                        <input id="nextbut" style="width:100px" class="btn navBut" onclick="nextPage()" value="Next">
+                        <input class="nextbut" style="width:100px" class="btn navBut" onclick="nextPage()" value="Next">
                     </div>
                 </form>
                 <div class="row mt-3 justify-content-center">
@@ -175,8 +175,8 @@
                         </label>
                     </div>
                     <div class="row mt-3 justify-content-center">
-                        <input id="nextbut" style="width:100px" onclick="backPage()" class="btn navBut mr-2" value="Back">
-                        <input id="nextbut" style="width:100px" class="btn navBut" onclick="sent()" value="Sign up">
+                        <input class="nextbut" style="width:100px" onclick="backPage()" class="btn navBut mr-2" value="Back">
+                        <input class="nextbut" style="width:100px" class="btn navBut" onclick="sent()" value="Sign up">
                         <button type="submit" id="submit" class="btn navBut ml-2">Sign up</button>
                     </div>
                 </form>
@@ -199,6 +199,7 @@
             document.getElementById("cvv").value !== "" &&
             document.getElementById("agree").checked
             ){
+                console.log(document.getElementById("firstName").value);
                 document.getElementById("submit").click();
             }
         }
