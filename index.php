@@ -254,12 +254,16 @@ button {
             color:#000000;
             background:#DDDADA;
             display:flex;
-            align-items:center;
-            
+            align-items: center;
+            justify-content: center;
         }
         .pink{
             color: #A13131 !important;
             background:#F5C0C0 !important;
+        }
+        .last{
+            display:flex;
+            justify-content:center;
         }
     </style>
 <body>
@@ -356,6 +360,9 @@ Adaptation Knowledge
         <div class="tag">
         Others
     </div>
+    </div>
+    <div class="last">
+        <img src="pic4">
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
