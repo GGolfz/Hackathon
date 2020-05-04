@@ -296,7 +296,7 @@ Adaptation Knowledge
     </div>
     <div class="row1">
     <div class="col1">
-        <img src="pic3.png">
+        <img src="pic3.png" style="margin-right:30px">
     </div>
             <div class="col1">
             <span class="header">ACCESSIBLE</span><br>
