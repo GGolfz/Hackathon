@@ -187,9 +187,9 @@ button {
             background: transparent;
             border: solid white 3px;
             color: white;
-            width: 180px;
+            width: 300;
             text-align: center;
-            font-size:36px;
+            font-size:24px;
         }
         .navBut {
             color: white !important;
@@ -221,7 +221,7 @@ button {
             background: url("banner.png") ;
             height:596px !important;
             color:white;
-            padding-top:200px;
+            padding-top:100px;
         }
     </style>
 <body>
@@ -252,10 +252,10 @@ button {
     </nav>
     <div class="banner" width="1440px">
         <div style="margin-left:137px">
-        <div style="font-size:60px; font-weight:bold;">
+        <div style="font-size:50px; font-weight:bold;">
         Do you bored during Quarantine?
     </div>
-    <div style="margin:20px 0px;font-size:48px; font-weight:bold;">
+    <div style="margin:20px 0px;font-size:40px; font-weight:bold;">
         Learning on your life-skill, anytime. <br>
         7-Days Free trial.
 
