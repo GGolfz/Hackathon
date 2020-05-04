@@ -182,7 +182,13 @@ button {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-
+        .button1{
+            padding:3%;
+            background:transparent;
+            border: solid white 3px;
+            color:white;
+            
+        }
         .navBut {
             color: white !important;
             font-family: "Quicksand", sans-serif !important;
@@ -238,7 +244,15 @@ button {
     </nav>
     <div width="1440px" height="596px">
         <div style="margin-left:137px">
+        <div>
         Do you bored during Quarantine?
+    </div>
+    <div>
+    Learning on your life-skill, anytime. <br>
+7-Days Free trial.
+
+    </div>
+    <a class="nav-link" href="signup.php"><div class="button1">JOIN FOR FREE</div></a>
     </div>
 
     </div>
