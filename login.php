@@ -12,8 +12,8 @@ session_start();
 
                       $row = mysqli_fetch_array($result);
 
-                      $_SESSION["Username"] = $row["Username"];
-					  $_SESSION["Password"] = $row["Password"];
+                      $_SESSION["Username"] = $row["username"];
+					  $_SESSION["Password"] = $row["password"];
                       Header("Location: index.php");
                   }
                   else{
