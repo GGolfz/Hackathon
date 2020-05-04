@@ -217,7 +217,9 @@ button {
             text-rendering: unset;
         }
         .banner{
-            background: url("banner.png") 
+            background: url("banner.png") ;
+            height:596px !important;
+            color:white;
         }
     </style>
 <body>
@@ -246,7 +248,7 @@ button {
                 <a class="nav-link" href="logout.php"> <button class="btn navBut my-2 my-sm-0 m-1" type="submit">logout</button></a>
         </div>
     </nav>
-    <div class="banner" width="1440px" height="596px">
+    <div class="banner" width="1440px">
         <div style="margin-left:137px">
         <div>
         Do you bored during Quarantine?
