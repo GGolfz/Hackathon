@@ -240,6 +240,24 @@ button {
             font-size:32px !important;
             font-weight:bold;
         }
+        .catagories{
+            display:flex;
+            justify-content: space-evenly;
+        }
+        .tag{
+            width:190px;
+            height:120px;
+            font-size: 32px;
+            font-weight:bold;
+            text-align:center;
+            border-radius:15px;
+            color:#000000;
+            background:#DDDADA;
+        }
+        .pink{
+            color: #A13131 !important;
+            background:#F5C0C0 !important;
+        }
     </style>
 <body>
 <nav class="navbar  navbar-expand-lg navbar-light">
@@ -313,6 +331,26 @@ Adaptation Knowledge
     </div>
             <div class="col1">
                 <img src="pic1.png">
+    </div>
+    </div>
+    <div class="catagories">
+        <div class="tag pink">
+        Cooking
+    </div>
+        <div class="tag">
+        Repairing
+    </div>
+        <div class="tag">
+        Make up
+    </div>
+        <div class="tag">
+        Exercise
+    </div>
+        <div class="tag">
+        Music
+    </div>
+        <div class="tag">
+        Others
     </div>
     </div>
 </body>
