@@ -177,7 +177,7 @@
                     <div class="row mt-3 justify-content-center">
                         <input style="width:100px" onclick="backPage()" class="nextbut btn navBut mr-2" value="Back">
                         <input style="width:100px" class="nextbut btn navBut" onclick="sent()" value="Sign up">
-                        <button type="submit" id="submit" class="btn navBut ml-2">Sign up</button>
+                        <button type="submit" id="submitform" class="btn navBut ml-2">Sign up</button>
                     </div>
                 </form>
             </div>
@@ -200,6 +200,7 @@
             document.getElementById("agree").checked
             ){
                 console.log(document.getElementById("firstName").value);
+                document.getElemenetById("submitform").click();
             }
         }
         function backPage() {
