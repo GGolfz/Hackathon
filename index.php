@@ -281,11 +281,12 @@ Adaptation Knowledge
 
     </div>
             <div class="col1">
+                <img src="pic2.png">
     </div>
     </div>
     <div class="row1">
     <div class="col1">
-
+        <img src="pic3.png">
     </div>
             <div class="col1">
             ACCESSIBLE<br>
@@ -301,6 +302,7 @@ Adaptation Knowledge
 
     </div>
             <div class="col1">
+                <img src="pic1.png">
     </div>
     </div>
 </body>
