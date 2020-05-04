@@ -226,9 +226,12 @@ button {
         .newcontent{
             display:flex;
             flex-direction:column;
+            justify-content:space-evenly;
         }
         .row1{
             display:flex;
+            align-items:center;
+            margin:5% 15%;
         }
     </style>
 <body>
