@@ -189,6 +189,7 @@ button {
             color: white;
             width: 180px;
             text-align: center;
+            font-size:36px;
         }
         .navBut {
             color: white !important;
@@ -251,10 +252,10 @@ button {
     </nav>
     <div class="banner" width="1440px">
         <div style="margin-left:137px">
-        <div >
+        <div style="font-size:60px; font-weight:bold;">
         Do you bored during Quarantine?
     </div>
-    <div style="margin:20px 0px">
+    <div style="margin:20px 0px;font-size:48px; font-weight:bold;">
         Learning on your life-skill, anytime. <br>
         7-Days Free trial.
 
