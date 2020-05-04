@@ -2,5 +2,5 @@
 <?php
 session_start();
 session_destroy();
-header("Location: signin.php ");	
+header("Location: https://hackanite6.ilab.sit.kmutt.ac.th/ ");	
 ?>
