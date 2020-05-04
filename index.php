@@ -290,7 +290,7 @@ button {
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
                 </form>
                 <a class="nav-link" href="#"> <img src="account.png"></a>
-                <a class="nav-link" href="logout.php"> <img src="logout.png"></a>
+                <a class="nav-link" href="https://hackanite6.ilab.sit.kmutt.ac.th/"> <img src="logout.png"></a>
         </div>
     </nav>
     <div class="banner" width="1440px">
