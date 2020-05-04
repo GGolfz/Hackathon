@@ -187,7 +187,7 @@ button {
             background: transparent;
             border: solid white 3px;
             color: white;
-            width: 300;
+            width: 300px;
             text-align: center;
             font-size:24px;
         }
@@ -222,6 +222,13 @@ button {
             height:596px !important;
             color:white;
             padding-top:100px;
+        }
+        .newcontent{
+            display:flex;
+            flex-direction:column;
+        }
+        .row1{
+            display:flex;
         }
     </style>
 <body>
@@ -263,6 +270,38 @@ button {
     <a href="signup.php"><div id="button3">JOIN FOR FREE</div></a>
     </div>
 
+    </div>
+    <div class="newcontent">
+        <div class="row1">
+            <div class="col1">
+            TOP Quality<br>
+            Learning From Skilled Lecturer<br>
+with Real Experience<br>
+Adaptation Knowledge
+
+    </div>
+            <div class="col1">
+    </div>
+    </div>
+    <div class="row1">
+    <div class="col1">
+
+    </div>
+            <div class="col1">
+            ACCESSIBLE<br>
+            24 Hour access<br>
+            Offline learning<br>
+    </div>
+    </div>
+    <div class="row1">
+    <div class="col1">
+    Discussion board<br>
+    Getting Struck with your problems<br>
+    Find your course friends
+
+    </div>
+            <div class="col1">
+    </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
