@@ -264,6 +264,7 @@ button {
         .last{
             display:flex;
             justify-content:center;
+            margin-top:5%;
         }
     </style>
 <body>
@@ -362,7 +363,7 @@ Adaptation Knowledge
     </div>
     </div>
     <div class="last">
-        <img src="pic4">
+        <img src="pic4.png" width="80%">
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
