@@ -10,7 +10,7 @@
         nav {
             background-color: rgba(246, 145, 145, 0.5) !important;
         }
-        #submit{
+        #submitform{
             display:none;
         }
         #phase2 {
@@ -128,7 +128,6 @@
                     <div class="row mt-3 justify-content-center">
                         <input style="width:100px" class="btn nextbut navBut" onclick="nextPage()" value="Next">
                     </div>
-                </form>
                 <div class="row mt-3 justify-content-center">
                     <div class="col text-center">
                         <a href="#"><img src="Facebook_Logo_(2019).png" width="50px"></a>
@@ -145,7 +144,6 @@
         <div class="card">
             <div class="card-body text-start ml-5 mr-5">
                 <h1>Credit Information</h1><br>
-                <form>
                     <div class="row mt-3">
                         <div class="col">
                             <label for="Name">Name</label>
@@ -200,7 +198,7 @@
             document.getElementById("agree").checked
             ){
                 console.log(document.getElementById("firstName").value);
-                document.getElemenetById("submitform").click();
+                document.getElementById("submitform").click();
             }
         }
         function backPage() {
