@@ -2,7 +2,7 @@
 session_start();      
 	include("connect.php");			
         
-    if ($_SESSION["UserLevel"]=="M"){
+    if ($_SESSION["Username"]){
     ?>
 <!DOCTYPE html>
 <html lang="en">
